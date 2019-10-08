@@ -1,0 +1,16 @@
+package clase3;
+
+public class Operacion {
+	int valor1;
+	int valor2;
+	sc = new Scanner(System.in);
+	
+	
+	private int getValor1() {
+		// TODO Auto-generated method stub
+		return valor1;
+	}
+	public int getValor2() {
+		return valor2;
+	}
+}

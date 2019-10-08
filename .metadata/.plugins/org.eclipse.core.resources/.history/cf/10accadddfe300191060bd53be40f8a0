@@ -1,0 +1,24 @@
+package clase3;
+import java.util.Scanner;
+
+public class Operacion {
+	Scanner sc = new Scanner(System.in);
+	int valor1;
+	int valor2;
+	
+	
+	public void setValor1(int valor1) {
+		valor1 = sc.nextInt();
+	}
+	
+	public void setValor2(int valor2) {
+		valor2 = sc.nextInt();
+	}
+	private int getValor1() {
+		// TODO Auto-generated method stub
+		return valor1;
+	}
+	public int getValor2() {
+		return valor2;
+	}
+}

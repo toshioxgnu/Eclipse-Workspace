@@ -1,0 +1,7 @@
+package herencia;
+
+import Persona.java;
+
+public class Trabajador extends java {
+
+}

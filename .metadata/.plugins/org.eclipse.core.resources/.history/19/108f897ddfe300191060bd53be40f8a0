@@ -1,9 +1,0 @@
-package clase3;
-
-public class suma extends Operacion {
-	int sum;
-	
-	public int getSum() {
-		return sum;
-	}
-}

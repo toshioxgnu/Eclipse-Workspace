@@ -1,7 +1,9 @@
-package clase3;
+package dinamicas;
 
-public class Main {
+public class Dinamicas {
+	
 	public static void main(String[] args) {
 		
 	}
+
 }

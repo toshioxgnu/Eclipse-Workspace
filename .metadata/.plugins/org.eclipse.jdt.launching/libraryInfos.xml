@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+<<<<<<< HEAD
     <libraryInfo home="/usr/lib/jvm/java-8-openjdk-amd64" version="1.8.0_222">
         <bootpath>
             <entry path="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar"/>
@@ -20,4 +21,7 @@
         </endorsedDirs>
     </libraryInfo>
     <libraryInfo home="/usr/lib/jvm/java-11-openjdk-amd64" version="11.0.5"/>
+=======
+    <libraryInfo home="/usr/lib/jvm/java-11-openjdk-amd64" version="11.0.4"/>
+>>>>>>> 6ebf6a95875c8065d125e0b732e84de07459ba97
 </libraryInfos>

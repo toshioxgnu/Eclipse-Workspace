@@ -1,0 +1,31 @@
+package Queues;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Colas {
+	public Queue ListaPrecios() {
+		Queue listaPrecios = new LinkedList();
+		
+		listaPrecios.add(1000);
+		listaPrecios.add(3000);
+		listaPrecios.add(2500);
+		listaPrecios.add(1500);
+		listaPrecios.add(1800);
+		
+	}
+		
+	public static void main(String[] args) {
+		
+		
+		System.out.println(ListaPrecios);
+		
+	}
+	
+	
+//	private void ejemplo_1() {
+//		// TODO Auto-generated method stub
+//
+//	}
+
+}

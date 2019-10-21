@@ -1,5 +1,9 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.jdt.launching.PREF_CONNECT_TIMEOUT=20000
 org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=
 org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1568125557253" defaultVMConnector\="">\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\n        <vm id\="1568125557253" name\="java-11-openjdk-amd64" path\="/usr/lib/jvm/java-11-openjdk-amd64"/>\n    </vmType>\n</vmSettings>\n
 org.eclipse.jdt.launching.only_include_exported_classpath_entries=false
+=======
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1567460429397" defaultVMConnector\="">\n    <vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\n        <vm id\="1567460429397" name\="java-11-openjdk-amd64" path\="/usr/lib/jvm/java-11-openjdk-amd64"/>\n    </vmType>\n</vmSettings>\n
+>>>>>>> 6ebf6a95875c8065d125e0b732e84de07459ba97

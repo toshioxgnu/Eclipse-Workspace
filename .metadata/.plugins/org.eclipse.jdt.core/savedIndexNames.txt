@@ -1,5 +1,15 @@
 INDEX VERSION 1.131+/home/jose/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+<<<<<<< HEAD
 3441568038.index
 3702792539.index
 646308851.index
 2078984178.index
+=======
+3473513384.index
+24360243.index
+860737548.index
+4172361456.index
+72141096.index
+2078984178.index
+4278340711.index
+>>>>>>> 6ebf6a95875c8065d125e0b732e84de07459ba97

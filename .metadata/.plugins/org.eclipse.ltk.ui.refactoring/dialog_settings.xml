@@ -4,10 +4,13 @@
 		<item key="width" value="600"/>
 		<item key="height" value="400"/>
 	</section>
+<<<<<<< HEAD
+=======
 	<section name="InferTypeArguments">
 		<item key="assumeCloneReturnsSameType" value="true"/>
 		<item key="leaveUnconstrainedRaw" value="true"/>
 	</section>
+>>>>>>> 6ebf6a95875c8065d125e0b732e84de07459ba97
 	<section name="RefactoringStatusDialog">
 		<item key="DIALOG_WIDTH" value="806"/>
 		<item key="DIALOG_HEIGHT" value="491"/>

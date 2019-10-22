@@ -27,9 +27,6 @@ public class Colas {
 	}
 	
 	
-//	private void ejemplo_1() {
-//		// TODO Auto-generated method stub
-//
-//	}
+
 
 }

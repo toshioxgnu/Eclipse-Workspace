@@ -1,10 +1,11 @@
-package ejercicio1;
+package prueba1;
 
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 
 public class MenuTienda {
+	
+
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		Stack Productos = new Stack();
@@ -39,10 +40,9 @@ public class MenuTienda {
 				break;
 			}	
 		}while(op!=0);
-		
 	}
 	
-	public static void agregarProducto(Stack Products) {
+	public static void agregarProducto(Stack Products){
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Ingrese la cantidad de productos a ingresar ");
 		int n=sc.nextInt();
@@ -51,7 +51,7 @@ public class MenuTienda {
 		for (int i=0;i<n;i++) {
 			System.out.println(i+1+"°"+" Producto:");
 			String S=sc.nextLine();
-
+		}
 		for (int i=0;i<n;i++) {
 			System.out.println(i+1+"°"+" Producto:");
 			String S=sc.next();

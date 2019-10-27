@@ -1,17 +1,9 @@
 INDEX VERSION 1.131+/home/jose/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
-<<<<<<< HEAD
-4278340711.index
-=======
 3473513384.index
-24360243.index
-3441568038.index
 2423112536.index
+3441568038.index
+24360243.index
 860737548.index
 4172361456.index
 3025665646.index
 72141096.index
-<<<<<<< HEAD
->>>>>>> f887d593b2e288ae12ed431fa70b135586612775
-646308851.index
-=======
->>>>>>> 0967d17ef37afcdb2e1eb66495bd46eb2d624872

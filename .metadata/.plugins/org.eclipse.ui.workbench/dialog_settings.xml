@@ -12,14 +12,12 @@
 		<list key="textArray">
 		</list>
 	</section>
-	<section name="ImportExportAction">
-	</section>
 	<section name="InstallationDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="-371"/>
-		<item key="DIALOG_Y_ORIGIN" value="-144"/>
-		<item key="DIALOG_WIDTH" value="1366"/>
-		<item key="DIALOG_HEIGHT" value="733"/>
-		<item key="DIALOG_FONT_NAME" value="1|Fira Sans|10.0|0|GTK|1|"/>
+		<item key="DIALOG_X_ORIGIN" value="-385"/>
+		<item key="DIALOG_Y_ORIGIN" value="-147"/>
+		<item key="DIALOG_WIDTH" value="1372"/>
+		<item key="DIALOG_HEIGHT" value="739"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|10.0|0|GTK|1|"/>
 	</section>
 	<section name="NewWizardAction">
 	</section>

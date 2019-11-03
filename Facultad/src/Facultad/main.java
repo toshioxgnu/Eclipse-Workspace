@@ -1,7 +1,7 @@
 package Facultad;
 
 public class main {
-	public static void main(String[] args) {
+	public static void main (String[] args){
 		
 		Estudiante estudiante = new Estudiante("Juan Alberto",22,"Ingenieria");
 		Docente docente = new Docente("Pedro Lobos", 45, "Medicina");
@@ -12,7 +12,7 @@ public class main {
 		System.out.println("\nDocente: " +"\n Nombre: "+ docente.getNombre() + 
 				"\nEdad : "+ docente.getEdad() + "\nCarrera: "+docente.getCarrera());
 		System.out.println("\nFuncionario: " +"\n Nombre: "+ funcionario.getNombre() + 
-				"\nEdad : "+ estudiante.getEdad() + "\nFuncion: "+funcionario.getFuncion());
+				"\nEdad : "+ funcionario.getEdad() + "\nFuncion: "+funcionario.getFuncion());
 		
 	}
 }

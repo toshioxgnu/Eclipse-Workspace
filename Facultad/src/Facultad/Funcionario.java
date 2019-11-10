@@ -15,7 +15,5 @@ public class Funcionario extends Persona {
 	public void setFuncion(String funcion) {
 		this.funcion = funcion;
 	}
-	
-	
-	
+
 }

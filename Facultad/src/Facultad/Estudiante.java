@@ -15,8 +15,5 @@ public class Estudiante extends Persona {
 	public void setCarrera(String carrera) {
 		this.carrera = carrera;
 	}
-	
-	
-	
-	
+
 }

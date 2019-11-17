@@ -1292,3 +1292,47 @@
 2019-11-10 12:51:12,611 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-11-10 12:51:12,614 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-11-10 12:51:12,614 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jose/eclipse-workspace/CrashCourse/src/test/resources
+2019-11-10 21:09:35,335 [Worker-11: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-10 21:14:42,332 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-17 18:51:18,158 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-11-17 18:52:01,433 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-17 18:52:01,440 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-11-17 18:52:01,458 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-11-17 18:52:01,465 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-17 18:52:01,465 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/jose/eclipse-workspace/CrashCourse/src/test/resources
+2019-11-17 19:01:26,999 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"11.0.4","java.vendor":"Ubuntu","os.name":"Linux","os.arch":"amd64","os.version":"5.3.9-050309-generic","eclipse.product":"org.eclipse.epp.package.java.product","eclipse.buildId":"4.11.0.I20190307-0500","projectCount":1,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.13.300.v20190218-1622"},{"symbolicName":"org.eclipse.m2e.core","version":"1.11.0.20190220-2119"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.1:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.8.2:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.5.2:install":[],"org.apache.maven.plugins:maven-jar-plugin:3.1.2:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:3.1.0:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.7.1:site":[],"org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test":[]}}
+2019-11-17 19:01:42,506 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[na:na]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) ~[na:na]
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556) ~[na:na]
+	at java.base/java.util.TimerThread.run(Timer.java:506) ~[na:na]

@@ -1336,3 +1336,4 @@ java.net.SocketTimeoutException: connect timed out
 	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) ~[na:na]
 	at java.base/java.util.TimerThread.mainLoop(Timer.java:556) ~[na:na]
 	at java.base/java.util.TimerThread.run(Timer.java:506) ~[na:na]
+2019-11-17 21:05:53,727 [Worker-13: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

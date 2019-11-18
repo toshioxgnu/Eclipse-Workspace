@@ -34,16 +34,21 @@ public class LinkedList {
 
 //	Borra el nodo que contiene determinada data
 	public void deleteData(int data) {
-		Node node = head, prev = null;
-		node.data = data;
-		if (node == head) {
-			System.out.println("Lista vacia");
-		}
-//		Si la data esta en  la cabeza
-		if (node != null && node.data == data ) {
-			head = node.next;
+		Node temp = head, prev = null;
+		
+		if(temp != null && temp.data == data) {
+			head = temp.next;
 			
 		}
+
+//		recorre la lista hasta donde esta la data 
+		while (temp != null && data != temp.data) {
+			prev = temp;
+			temp = prev.next;
+
+		}
+
+		prev.next = temp.next;
 		
 
 	}
@@ -51,23 +56,22 @@ public class LinkedList {
 // Borra el nodo ubicado en determinada posicion
 	public void deleteNode(int posicion) {
 		Node temp = head, prev = null;
-		int i=0;
+		int i = 0;
 
 //		Si la posicion es 0 elimina la cabeza
 		if (posicion == 0) {
 			head = temp.next;
-			
+
 		}
 //		recorre la lista hasta el anterior
-		while (temp !=null && i<posicion-1) {
+		while (temp != null && i < posicion - 1) {
 			prev = temp;
 			temp = prev.next;
 			i++;
-			
+
 		}
-		
+
 		prev.next = temp.next;
-		
-		
+
 	}
 }
